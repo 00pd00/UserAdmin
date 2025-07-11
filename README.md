@@ -1,20 +1,23 @@
-# 👤 User Management Backend
+# 👥 User Management Fullstack App
 
-This is a simple Spring Boot REST API project connected to a MySQL database. It provides CRUD operations for managing users with fields like `id`, `name`, and `email`.
+A fullstack application built with Spring Boot and React for managing users. Users can be created, viewed, updated, and deleted.
 
 ### 🔧 Tech Stack
-- Spring Boot (Java)
-- MySQL
+- Backend: Spring Boot (Java)
+- Frontend: React (Vite)
+- Database: MySQL
 
 ### 📦 Features
-- Create, Read, Update, Delete users
-- RESTful API endpoints
+- Full CRUD operations for users
+- REST API with Spring Boot
+- React frontend UI
 - MySQL database integration
-- CORS enabled for frontend (e.g., React)
+- CORS enabled for local development
 
-### 🏃‍♂️ Run the Project
-Make sure MySQL is running and update your `application.properties`. Then:
+### 🏃‍♂️ How to Run
 
+#### Backend:
 ```bash
+cd backend
 ./mvnw clean install
 java -jar target/backend-0.0.1-SNAPSHOT.jar
