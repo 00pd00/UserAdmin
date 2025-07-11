@@ -21,3 +21,9 @@ A fullstack application built with Spring Boot and React for managing users. Use
 cd backend
 ./mvnw clean install
 java -jar target/backend-0.0.1-SNAPSHOT.jar
+
+#### Frontend:
+```bash
+cd frontend
+npm install
+npm run dev
